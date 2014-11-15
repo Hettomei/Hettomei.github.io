@@ -1,14 +1,25 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container container-left">
-    <div class="row">
+  {% include head.html %}
+
+  <body>
+
+    {% include up-navbar.html %}
+
+    <div class="container container-left">
+      <div class="row">
         <div class="col-md-3 hidden-xs">
-            {% include sidebar.html %}
+          {% include sidebar.html %}
         </div>
         <div class="col-md-9">
-            {{ content }}
+          {{ content }}
         </div>
+      </div>
     </div>
-</div>
 
-{% include footer.html %}
+    {% include footer.html %}
+    {% include disqus-counts.html %}
+
+  </body>
+</html>
