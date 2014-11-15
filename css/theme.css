@@ -1,6 +1,3 @@
-body {
-}
-
 .copyright {
   color: #ffffff;
 }
@@ -67,6 +64,13 @@ footer nav.navbar p{
   font-size: 1.6em;
 }
 
-.highlight pre{
+.highlight pre {
   background-color: #FFFFF0;
+  word-wrap: normal;
+  overflow: scroll;
+}
+
+.highlight pre code,
+.highlight pre * {
+  white-space: pre;
 }
