@@ -5,17 +5,27 @@ body {
   color: #ffffff;
 }
 
-.footer {
+footer {
   text-align: center;
+  margin-top: 1em;
 }
 
-.footer a {
+footer a {
   color: #ee4444;
 }
 
-.sidebar h1 {
+footer nav.navbar{
+  margin-bottom: 0;
+}
+
+footer nav.navbar p{
+  margin-top: 0.9em;
+}
+
+.sidebar p.intro {
   color: #ee4444;
   font-size: 1.3em;
+  margin-top: 0px;
 }
 
 .sidebar a {
@@ -46,4 +56,8 @@ body {
 
 .author a {
   color: #ee4444;
+}
+
+.punchline {
+  font-size: 1.6em;
 }

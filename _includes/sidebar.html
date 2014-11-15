@@ -1,9 +1,10 @@
 <div class="sidebar well">
-{{ site.description }}
+  <p class="punchline">{{ site.description }}</p>
+  <p><em>Syntactic sugar causes cancer of the semicolon. Alan J. Perlis</em></p>
 </div>
 
 <div class="sidebar well">
-    <h1>Recent Posts</h1>
+    <p class="intro">Posts récents</p>
     <ul>
         {% for post in site.posts limit:5 %}
           <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
