@@ -66,3 +66,7 @@ footer nav.navbar p{
 .punchline {
   font-size: 1.6em;
 }
+
+.highlight pre{
+  background-color: #FFFFF0;
+}
