@@ -18,3 +18,7 @@ Copy paste what have been done inside _posts, and then :
 ```
 git push
 ```
+
+#disqus
+
+lccb-osef.disqus.com
