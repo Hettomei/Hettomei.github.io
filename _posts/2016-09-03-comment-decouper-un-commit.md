@@ -78,6 +78,7 @@ Reprendre le precedent commit :
 
 cette command supprime le dernier commit et remet toutes les modifs
 dans "Changes to be committed:"
+
 ```bash
 git reset --soft HEAD~1
 ```
@@ -86,6 +87,7 @@ maintenant, supposons qu'on avait commité les fichier a.txt et b.txt
 mais que chaque fichier suffit par commit :
 
 on enleve b.txt
+
 ```bash
 git reset HEAD b.txt
 git commit -m "file a remove empty char"
@@ -98,6 +100,7 @@ là notre commit 'VERY BIG BIG COMMIT' n'existe plus, il a été
 remplacé par "file a ..." et "file b.txt..." .
 
 On peut reprendre le rebase toujours en cours :
+
 ```bash
 git rebase --continue
 
@@ -110,6 +113,7 @@ e8c71d9 first commit
 ```
 
 notre branche est nickel, on merge
+
 ```bash
 git checkout master
 git merge --no-ff -
@@ -121,5 +125,5 @@ git push
 je le garde quand meme, comme ca dans mon historique je vois clairement ma branche.
 Pratique pour revert
 
-+ `-`
++ `-` (le tiret à la fin du git merge)
 Vous connaissez `cd -` 'retourne au dossier precedant' maintenant vous connaissez `git checkout -`
