@@ -110,13 +110,13 @@ On retourne sur sa branche, on met à jour
 ```bash
 git checkout feature-bonjour
 git fetch
-# J'aime etre à jour
+# On aime etre à jour
 git rebase origin/master
-# Je bosse
+# On bosse
 git commit -m 'Forgot one case'
 ```
 
-Maintenant on se retrouve à l'etape *## On squash* avec un commit en plus. Donc le rebase va ressembler à ca :
+Maintenant on se retrouve à l'etape **# On squash** avec un commit en plus. Donc le rebase va ressembler à ca :
 
 ```bash
 # Branch anonyme
@@ -142,7 +142,7 @@ git push origin HEAD:refs/changes/11003
 git checkout -
 ```
 
-Enjoy la mocheté d' 'un seul commit'
+Enjoy la mocheté du **un seul commit**.
 
 # HELP, j'ai tout perdu mes commits
 
