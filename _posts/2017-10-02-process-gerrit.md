@@ -146,4 +146,4 @@ Enjoy la mocheté du **un seul commit**.
 
 # HELP, j'ai tout perdu mes commits
 
-Cherchez de l'aide autour de `git reflog` <- tout vos commits s'y trouvent
+Cherchez de l'aide autour de `git reflog` <- tous vos commits s'y trouvent
