@@ -64,13 +64,11 @@ Donc en gros,
 
 On se met sur une branche anonyme,
 
-on rebase en,
+on rebase en :
 
-gardant le premier commit,
-
-fixup tous les suivants,
-
-squash le dernier, pour récupérer le joli message bien formatté
++ gardant le premier commit,
++ fixup tous les suivants,
++ squash le dernier (pour récupérer le joli message bien formatté)
 
 ```bash
 # Branch anonyme
@@ -99,7 +97,7 @@ C'est gerrit, on push d'un certaine façon
 git push origin HEAD:refs/for/master
 ```
 
-Un petit `git checkout -` pour retourner sur la branche `feature-bonjour` et eviter de faire des ajout sur cette branche qui va disparaitre.
+Un petit `git checkout -` pour retourner sur la branche `feature-bonjour` et eviter de faire des ajouts sur cette branche qui va disparaitre.
 
 # Tout n'est pas parfait
 
@@ -109,14 +107,14 @@ On part de l'idée que personne n'a ajouté de code sur votre commit gerrit :
 
 On retourne sur sa branche, on met à jour
 
-`
+```bash
 git checkout feature-bonjour
 git fetch
 # J'aime etre à jour
 git rebase origin/master
 # Je bosse
 git commit -m 'Forgot one case'
-`
+```
 
 Maintenant on se retrouve à l'etape *## On squash* avec un commit en plus. Donc le rebase va ressembler à ca :
 
