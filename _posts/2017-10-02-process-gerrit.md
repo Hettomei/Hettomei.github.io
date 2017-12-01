@@ -15,7 +15,7 @@ Pire, on m'impose, pour résoudre un bug ou une feature de ne faire qu'un commit
 ```bash
 git checkout -b ma-feature
 git commit -m "foo"
-git commit -m "Spleandid commit message"
+git commit -m "Splendid commit message"
 # ....
 
 git checkout --detach
