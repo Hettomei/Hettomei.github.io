@@ -2,7 +2,7 @@
 layout: post
 title: "Comment découper un commit"
 date: 2016-09-03 18:25:06 UTC
-comments: true
+comments: false
 ---
 
 # Comment découper un commit ?

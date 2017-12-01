@@ -2,7 +2,7 @@
 layout: post
 title: "Cool links"
 date: 2017-10-05 10:54:00 UTC
-comments: true
+comments: false
 ---
 
 # Longue liste

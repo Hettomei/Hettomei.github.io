@@ -2,7 +2,7 @@
 layout: post
 title: "Fix basic file and folder permission"
 date: 2014-11-15 18:25:06 UTC
-comments: true
+comments: false
 ---
 
 # Problemes dans vos droits unix ?
