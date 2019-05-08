@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Comment découper un commit"
+title: "Comment découper un commit ?"
 date: 2016-09-03 18:25:06 UTC
-comments: false
+comments: true
 ---
-
-# Comment découper un commit ?
 
 On code on code, on commit, et bientôt on va merger
 sa branche sur master.

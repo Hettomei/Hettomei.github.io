@@ -2,7 +2,7 @@
 layout: post
 title: "Workflow Gerrit"
 date: 2017-10-02 09:16:06 UTC
-comments: false
+comments: true
 ---
 
 # Mise en situation

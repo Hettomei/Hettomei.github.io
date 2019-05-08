@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Simplest clojure project"
+title: "Comment créer et lancer un simple script clojure ?"
 date: 2019-05-08 07:29:27+00:00
 comments: true
 ---
-
-# Comment lancer un script clojure ?
 
 ## Install
 

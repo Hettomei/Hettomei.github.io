@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Fix basic file and folder permission"
+title: "Problemes dans vos droits unix ?"
 date: 2014-11-15 18:25:06 UTC
-comments: false
+comments: true
 ---
-
-# Problemes dans vos droits unix ?
 
 Salut, vous venez de récupérer un bakcup qui n'a pas géré les droits.
 
