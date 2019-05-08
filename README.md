@@ -1,14 +1,22 @@
 Hettomei.github.io
 ==================
 
-How to start :
+# Install
+
 ```
-jekyll serve
+bundle install
+```
+
+# How to start :
+
+```
+bundle exec jekyll serve
+# => Now browse to http://localhost:4000
 ```
 
 If you change somethig in config.yml, redo
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
 
 
