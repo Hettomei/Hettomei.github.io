@@ -42,16 +42,6 @@ footer nav.navbar p{
   margin: 0;
 }
 
-.well h1 {
-  color: #ee4444;
-  font-size: 1.3em;
-}
-
-.well h2 {
-  color: #ee4444;
-  font-size: 1.2em;
-}
-
 .author {
   color: #ee4444;
 }
@@ -73,4 +63,14 @@ footer nav.navbar p{
 .highlight pre code,
 .highlight pre * {
   white-space: pre;
+}
+
+/* Not from original theme */
+h1.page-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  margin-bottom: 80px;
 }

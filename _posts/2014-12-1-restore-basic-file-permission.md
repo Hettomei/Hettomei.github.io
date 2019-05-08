@@ -5,7 +5,7 @@ date: 2014-11-15 18:25:06 UTC
 comments: true
 ---
 
-Salut, vous venez de récupérer un bakcup qui n'a pas géré les droits.
+Salut, vous venez de récupérer un backup qui n'a pas géré les droits.
 
 Résultat vous vous retrouvé avec des permissions bizarre, et pire, la coloration
 de ```ls``` sous zsh est horrible ?! Voici la solution :
