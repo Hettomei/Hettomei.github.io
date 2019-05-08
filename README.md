@@ -14,19 +14,14 @@ bundle exec jekyll serve
 # => Now browse to http://localhost:4000
 ```
 
-If you change somethig in config.yml, redo
-```
-bundle exec jekyll serve
-```
+# How to make a post :
 
-
-How to make a post :
 Copy paste what have been done inside _posts, and then :
 
 ```
 git push
 ```
 
-#disqus
+# Admin Disqus
 
-lccb-osef.disqus.com
+https://lccb-osef.disqus.com/
