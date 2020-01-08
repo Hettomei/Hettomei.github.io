@@ -88,6 +88,15 @@ Et soudain, vous voyez :
 		   (+ n (line-number-at-pos start) -1) n))))))
 ```
 
+# Avoir le meme comportement que `set scrolloff=3`
+
+```
+(custom-set-variables
+ '(scroll-conservatively 10000)
+ '(scroll-margin 3)
+ '(scroll-step 1))
+```
+
 # Tout semble exister, tout semble clair.
 
 En écrivant ce post, j'ai vu des trailing whitespace.
