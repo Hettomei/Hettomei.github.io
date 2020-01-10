@@ -88,13 +88,69 @@ Et soudain, vous voyez :
 		   (+ n (line-number-at-pos start) -1) n))))))
 ```
 
-# Avoir le meme comportement que `set scrolloff=3`
+# Avoir le meme comportement que ...
 
+Vim:
+```
+set scrolloff=3
+```
+
+Emacs :
 ```
 (custom-set-variables
+ '(hscroll-margin 15)
+ '(hscroll-step 1)
  '(scroll-conservatively 10000)
  '(scroll-margin 3)
  '(scroll-step 1))
+```
+
+---
+
+Vim :
+```
+set nowrapscan
+```
+
+Emacs :
+```
+(custom-set-variables
+ '(evil-search-wrap nil))
+```
+
+---
+
+Remember last location in file
+
+vim :
+```
+augroup lastlocation
+  autocmd!
+  autocmd bufreadpost * if line("'\"") > 0 && line("'\"") <= line("$") | execute "normal! g'\"" | endif
+augroup end
+```
+
+emacs :
+```
+(custom-set-variables
+ '(save-place-mode t))
+```
+
+---
+
+Activate mouse in terminal
+
+vim :
+```
+if has('mouse')
+  set mouse=a
+endif
+```
+
+emacs :
+```
+(custom-set-variables
+ '(xterm-mouse-mode t))
 ```
 
 # Tout semble exister, tout semble clair.
