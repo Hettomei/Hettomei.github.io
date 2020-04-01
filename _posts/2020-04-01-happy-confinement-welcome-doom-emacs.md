@@ -7,11 +7,11 @@ comments: true
 
 # Doom Emacs
 
-Thanks hlissner for bringing https://github.com/hlissner/doom-emacs
+Thanks hlissner for bringing <https://github.com/hlissner/doom-emacs>
 
 # completion in buffer
 
-Doom comes with [company]<http://company-mode.github.io/>
+Doom comes with [company][http://company-mode.github.io/]
 
 # Setup package
 
