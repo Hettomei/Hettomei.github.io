@@ -9,11 +9,15 @@ comments: true
 
 Thanks hlissner for bringing <https://github.com/hlissner/doom-emacs>
 
-# completion in buffer
+# Completion in buffer
 
-Doom comes with [company][http://company-mode.github.io/]
+Doom comes with [company](http://company-mode.github.io/)
 
-# Setup package
+# The need
+
+I want to bring back `C-n` in emacs that looks like vim
+
+## Setup package
 
 ```
 (use-package! company
@@ -27,15 +31,14 @@ Doom comes with [company][http://company-mode.github.io/]
   (define-key company-active-map (kbd "SPC") #'company-complete-selection))
 ```
 
-# Setup C-n
-
+## Setup C-n
 
 ```
 (map! :i  "C-n" #'+company/dabbrev
       :i  "C-p" #'+company/dabbrev-code-previous)
 ```
 
-# I want a space after pressing... space
+## I want a space after pressing... space
 
 ```
 ;; Add a space
